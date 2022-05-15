@@ -1,6 +1,6 @@
-##Bank demo api
+Bank demo api
 
-###General info
+General info
 This is a sample application that has some core banking functionalities:  
 -Creating bank current account (multi-currency)  
 -Creating transaction
@@ -9,7 +9,7 @@ Therefore are 2 REST API-s endpoints:
 -http://localhost:8080/api/v1/account/add  
 -http://localhost:8080/api/v1/transaction/add
 
-###Example for calling API-s
+Example for calling API-s
 **Account API:**  
 **Request:**  
 ```json
@@ -65,7 +65,7 @@ Therefore are 2 REST API-s endpoints:
 ```
 
 
-###Technologies
+Technologies
 -Java 17  
 -SpringBoot  
 -MyBatis  
@@ -73,13 +73,13 @@ Therefore are 2 REST API-s endpoints:
 -Postgres  
 
 
-###Setup
+Setup
 Run `gradle bootRun` to run the application.
 
 Script for creating the database:   
 `bank-demo-api-main\config\db_struct_bank.sql`
 
-###Tests
+Tests
 There are created tests to create a few scenarios of API-s Controllers:  
 `bank-demo-api-main\test `  
 Run `gradle test` to run controller tests. 
